@@ -139,7 +139,10 @@ public class DivideAndConquerAlgorithms {
 	 * @param n: The length of the desired pattern
 	 */	
 	public void drawImage(int n){
-		
+		if(n > 0){
+     		System.out.print("*");
+     		drawImage(n-1);
+  		}
 	}
 
 	//-------------------------------------------------------------------
